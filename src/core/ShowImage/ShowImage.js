@@ -1,5 +1,6 @@
 import './ShowImage.css'
-const API = "http://localhost:3254/api"
+import { API } from '../../config'
+// const API = "http://localhost:3254/api"
 
 const ShowImage = ({ item, url }) => {
 

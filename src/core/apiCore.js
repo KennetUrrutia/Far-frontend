@@ -1,5 +1,5 @@
-
-const API = "http://localhost:3254/api"
+import { API } from '../config'
+// const API = "http://localhost:3254/api"
 
 export const getMedicamentos = () => {
     const url = `${API}/medicamentos/listMedicamentos`
